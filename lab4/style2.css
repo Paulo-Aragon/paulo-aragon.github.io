@@ -1,0 +1,14 @@
+
+.formulario{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+}
+
+.formulario label,
+.formulario input,
+.formulario select,
+.formulario textarea{
+    display: block;
+    margin-bottom: 10px;
+}

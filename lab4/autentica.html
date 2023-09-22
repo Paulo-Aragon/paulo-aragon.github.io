@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+    <H1>Fundamentos da Web</H1>
+    <p>exercicios</p>
+    <div class="faixa-cinza"><a href="index.html">Retornar</a></div>
+    <div>
+        
+    </div><br>
+    <h1>Contatos</h1>
+    <div class="formulario">
+        <form action="http://httpbin.org/post" method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome"required/><br>
+
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto"required/><br>
+
+            <label for="data_ocorrencia">Data da ocorrencia</label>
+            <input type="date" id="data_ocorrencia" name="data_ocorrencia"required/><br>
+
+            <label for="foto_ocorrencia">Foto da ocorrencia</label>
+            <input type="file" id="foto_ocorrencia" name="foto_ocorrencia"required/><br> 
+       
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone"required/><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"required/><br>
+        
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="4" name="email"required></textarea><br>
+     
+            <label for="estilo">Estilo</label>
+            <select id="estilo" name="estilo">
+                <option value="academico">Academico</option><br> 
+            </select>
+            <input type="submit"/><br>
+        </form>
+    </div>    
+</body>

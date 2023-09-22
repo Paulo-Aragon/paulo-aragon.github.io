@@ -1,0 +1,9 @@
+.faixa-cinza{
+    background-color: gray;
+    padding: 10px;
+    height: 50px;
+}
+.opcao{
+    display: block;
+    margin: 10px 0;
+}
